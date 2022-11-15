@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fraunces:ital,opsz,wght@0,9..144,100;0,9..144,200;0,9..144,300;0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;0,9..144,800;1,9..144,100;1,9..144,200;1,9..144,300;1,9..144,400;1,9..144,500;1,9..144,600;1,9..144,700;1,9..144,800;1,9..144,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,900&display=swap");
+
+.first-section {
+    width: 1440px;
+    margin: 0 auto;
+    border-radius: 8px;
+    margin-bottom: 200px
+}
+
+@media screen and (max-width: 630px) {
+    .first-section {
+        text-align: left
+    }
+}
+
+.first-section .container {
+    max-width: 1280px
+}
+
+.first-section .container .flex {
+    background-color: black;
+    width: 1300px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 8px
+}
+
+.first-section .container .info-section {
+    text-align: center;
+    margin-left: 90px
+}
+
+@media screen and (max-width: 630px) {
+    .first-section .container .info-section {
+        margin-left: -700px
+    }
+}
+
+.first-section .container .info-section h1 {
+    font-family: 'Fraunces ';
+    font-weight: 900px;
+    font-size: 32px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7
+}
+
+.first-section .container .info-section p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #FEFCF7;
+    padding-bottom: 86px
+}
+
+.first-section .container .info {
+    width: 1280px;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 5px;
+    text-align: center;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    margin-left: 40px;
+    gap: 30px
+}
+
+.first-section .container .info div {
+    background-color: #6EBAB8;
+    width: 350px;
+    padding-top: 72px;
+    border-radius: 8px
+}
+
+.first-section .container .info div img {
+    padding-bottom: 56px
+}
+
+.first-section .container .info div h3 {
+    padding-bottom: 24px;
+    font-family: 'Fraunces ';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+    padding-bottom: 38px
+}
+
+.first-section .container .info div p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    padding-bottom: 48px
+}
+
+.first-section .container .info :first-child img {
+    padding-top: 72px
+}
+
+.first-section .container .info :nth-child(2) img {
+    padding-top: 72px;
+    padding-bottom: 56px
+}
+
+.first-section .container .info :last-child img {
+    padding-bottom: 67px;
+    padding-top: 85px
+}
+
+@media screen and (max-width: 630px) {
+    .first-section .container .info {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        display: inline-block;
+        margin-left: 130px
+    }
+
+    .first-section .container .info div {
+        margin-bottom: 30px
+    }
+}
+
+.second-section .container {
+    max-width: 1045px;
+    margin: 0 auto
+}
+
+.second-section .container .flex {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 95px
+}
+
+.second-section .container .flex div .circle {
+    width: 31px;
+    height: 31px;
+    background-image: url(../../image/Oval-Copy.png)
+}
+
+@media screen and (max-width: 630px) {
+    .second-section .container .flex div .circle {
+        margin-left: 280px
+    }
+}
+
+.second-section .container .flex div h2 {
+    font-family: 'Fraunces ';
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: #FDD6BA;
+    margin-top: 50px;
+    padding-bottom: 38px
+}
+
+@media screen and (max-width: 630px) {
+    .second-section .container .flex div h2 {
+        padding-top: 50px;
+        text-align: center
+    }
+}
+
+.second-section .container .flex div h3 {
+    font-family: 'Fraunces ';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: #333D4B;
+    padding-bottom: 42px
+}
+
+@media screen and (max-width: 630px) {
+    .second-section .container .flex div h3 {
+        padding-top: 50px;
+        text-align: center
+    }
+}
+
+.second-section .container .flex div .p {
+    font-family: 'Barlow';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #333D4B
+}
+
+@media screen and (max-width: 630px) {
+    .second-section .container .flex div .p {
+        padding-top: 50px;
+        text-align: center;
+        padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px
+    }
+}
+
+@media screen and (max-width: 630px) {
+    .second-section .container .flex {
+        display: inline-block;
+        margin-top: 50px
+    }
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0
+}
+
+@media screen and (max-width: 630px) {
+    body {
+        background-image: -webkit-gradient(linear, left top, left bottom, from(black), color-stop(grey), to(white));
+        background-image: linear-gradient(black, grey, white)
+    }
+}
+
+.main {
+    padding-left: 200px;
+    padding-bottom: 80px
+}
+
+.main h3 {
+    font-family: 'Fraunces ';
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: #83888F;
+    padding-bottom: 80px;
+    padding-top: 200px
+}
+
+@media screen and (max-width: 630px) {
+    .main {
+        margin: 0 auto;
+        margin-top: 1200px
+    }
+
+    .main h3 {
+        color: black;
+        font-size: 2rem
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
